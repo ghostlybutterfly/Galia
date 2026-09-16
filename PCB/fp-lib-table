@@ -1,0 +1,13 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "GB-Breakout") (type "KiCad") (uri "${KIPRJMOD}/GB-Kicad-Master-Library/footprints/GB-Breakout.pretty") (options "") (descr ""))
+	(lib (name "GB-Connector") (type "KiCad") (uri "${KIPRJMOD}/GB-Kicad-Master-Library/footprints/GB-Connector.pretty") (options "") (descr ""))
+	(lib (name "GB-Device") (type "KiCad") (uri "${KIPRJMOD}/GB-Kicad-Master-Library/footprints/GB-Device.pretty") (options "") (descr ""))
+	(lib (name "GB-Header") (type "KiCad") (uri "${KIPRJMOD}/GB-Kicad-Master-Library/footprints/GB-Header.pretty") (options "") (descr ""))
+	(lib (name "GB-HolePad") (type "KiCad") (uri "${KIPRJMOD}/GB-Kicad-Master-Library/footprints/GB-HolePad.pretty") (options "") (descr ""))
+	(lib (name "GB-Logo") (type "KiCad") (uri "${KIPRJMOD}/GB-Kicad-Master-Library/footprints/GB-Logo.pretty") (options "") (descr ""))
+	(lib (name "GB-Misc") (type "KiCad") (uri "${KIPRJMOD}/GB-Kicad-Master-Library/footprints/GB-Misc.pretty") (options "") (descr ""))
+	(lib (name "GB-Package") (type "KiCad") (uri "${KIPRJMOD}/GB-Kicad-Master-Library/footprints/GB-Package.pretty") (options "") (descr ""))
+	(lib (name "GB-RotaryEncoder") (type "KiCad") (uri "${KIPRJMOD}/GB-Kicad-Master-Library/footprints/GB-RotaryEncoder.pretty") (options "") (descr ""))
+	(lib (name "GB-Switch") (type "KiCad") (uri "${KIPRJMOD}/GB-Kicad-Master-Library/footprints/GB-Switch.pretty") (options "") (descr ""))
+)

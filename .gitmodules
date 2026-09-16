@@ -1,0 +1,3 @@
+[submodule "PCB/GB-Kicad-Master-Library"]
+	path = PCB/GB-Kicad-Master-Library
+	url = https://github.com/ghostlybutterfly/GB-Kicad-Master-Library
