@@ -34551,6 +34551,14 @@
 		(uuid "14e0e5e6-147e-4a00-8715-14a8b94ac246")
 	)
 	(segment
+		(start 96 41.8)
+		(end 96 37.8)
+		(width 0.6)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "30ce1e14-4073-4f02-bcdc-8ba4c26176ee")
+	)
+	(segment
 		(start 35.4 35)
 		(end 34.585 35)
 		(width 0.3)

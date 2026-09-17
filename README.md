@@ -49,4 +49,5 @@ This keyboard is licensed under [CERN-OHL-S-2.0](https://cern-ohl.web.cern.ch/) 
 | Supplies: Extra GPIO 2   | Required                | Analog/Digital     |
 
 ## Changelog
+* 2026/09/17: Fixed gap in guard rail.
 * 2026/09/16: V0.1 motherboard initial commit.
