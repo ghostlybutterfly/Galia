@@ -1,3 +1,6 @@
-[submodule "PCB/GB-Kicad-Master-Library"]
-	path = PCB/GB-Kicad-Master-Library
+[submodule "Motherboard/GB-Kicad-Master-Library"]
+	path = Motherboard/GB-Kicad-Master-Library
+	url = https://github.com/ghostlybutterfly/GB-Kicad-Master-Library
+[submodule "Daughterboard (Cantaloupe)/GB-Kicad-Master-Library"]
+	path = Daughterboard (Cantaloupe)/GB-Kicad-Master-Library
 	url = https://github.com/ghostlybutterfly/GB-Kicad-Master-Library
