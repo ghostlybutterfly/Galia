@@ -79,19 +79,7 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_filters_mismatch|26300000|35000000|6dac36e0-bef3-4b47-a282-a138259404b3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|26300000|53600000|5ac29752-df93-457c-a113-f5db4fd572f5|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "footprint_filters_mismatch|33200000|39900000|2cbefba7-67bb-4a7f-b481-5f602830471f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|33200000|48700000|3a1d7211-de5e-445d-ad10-19abe050dd33|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -103,112 +91,8 @@
           ""
         ],
         [
-          "footprint_filters_mismatch|44550000|40000000|c7c28962-d87b-4cb0-8e0f-25c108d3db3b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|68290000|29300000|e2da8941-5675-4fd5-a1de-75714714ee2e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|68290000|35500000|4aa82640-4874-48ed-9de1-82d67c90efca|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|70830000|29300000|5dbcd671-97ba-4f34-af0d-877a6e9b2c58|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|70830000|35500000|cfe99ebd-b232-4468-8090-6e43c5dabe57|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|73020000|41300000|a4dd586a-af3e-4671-8481-ed7059ca82a8|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|73370000|29300000|801eb568-3fd3-4375-bfa6-5fa9ead94988|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|73370000|35500000|9b850446-4f02-4b24-8af6-ea886b61f259|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|75910000|29300000|861a4c23-7173-4cd7-af2e-030389cedfdc|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|75910000|35500000|64d803f2-e68c-4ca4-8ae6-be6fe64f4542|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|78450000|29300000|60d5033c-e5ce-4cc0-bd2a-eeeebab3bce7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|78450000|35500000|93ddcd75-e403-4e61-8107-efda0a0597e3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|80990000|29300000|8b78a668-72eb-481f-8581-b8cbce5e1fac|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|83530000|29300000|a5ef2df8-8651-472a-81b6-1e6b9dce8073|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|83530000|35500000|5bb00a98-eba6-430c-9fcb-2465034ddd61|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|85720000|31130000|af46204d-eb7d-4190-ac22-b21b3c950fd0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|86070000|29300000|6d728fa7-77ce-4f2e-9c53-19c57d9f2b9f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|86070000|35500000|1230031a-e639-49f1-843f-d736955b93a0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "footprint_filters_mismatch|89565000|39330000|a1b36037-5991-4252-8d74-81e8bef6bdf8|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|33392500|39900000|2cbefba7-67bb-4a7f-b481-5f602830471f|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "lib_footprint_mismatch|33392500|48700000|3a1d7211-de5e-445d-ad10-19abe050dd33|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|44550000|40192500|c7c28962-d87b-4cb0-8e0f-25c108d3db3b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|31700000|45100000|23249d95-af0a-40a3-9fae-7e6b2f0d1f3a|fba23fb9-9b7b-4275-98fb-aacd4571ba4f",
-          ""
-        ],
-        [
-          "silk_overlap|42950000|40000000|34eb31c9-a30e-4dfa-993a-29eebfb89baf|6f4ece51-f794-455e-9c48-1225f5812fb6",
-          ""
-        ],
-        [
-          "silk_overlap|64609999|36100000|15f2d4e4-c914-4685-9300-13d3ee833fc8|e560e0a4-f886-4cd1-9f5c-e02257e6ccad",
-          ""
-        ],
-        [
-          "silk_overlap|64610000|36100000|9252d625-56ec-41bf-96ad-3415f99a45ff|e560e0a4-f886-4cd1-9f5c-e02257e6ccad",
-          ""
-        ],
-        [
-          "unconnected_items|50506027|26300000|F.Cu|4|07920709-fba3-487d-bcb0-f69009aaf3a8|07920709-fba3-487d-bcb0-f69009aaf3a8",
-          "Connected via USB shield"
         ]
       ],
       "meta": {
@@ -707,7 +591,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -947,7 +831,7 @@
         "uuid": "534caec7-cf60-4f90-b1ed-42c9d445ef0f"
       }
     ],
-    "used_designators": "J1-2,J7",
+    "used_designators": "J6,U7",
     "variants": []
   },
   "sheets": [
