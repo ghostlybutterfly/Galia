@@ -1,0 +1,331 @@
+INFO: kbplacer_plugin_action.py:73: Plugin version: 0.19
+INFO: kbplacer_plugin_action.py:74: Python version: '3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)]'
+INFO: kbplacer_plugin_action.py:75: KiCad version: 10.0.3 with 4.2.2 msw (phoenix) wxWidgets 3.3.2
+INFO: kbplacer_dialog.py:799: Language: en
+DEBUG: kle_serial.py:1082: Could not load explicit spacing from layout: [Errno 22] Invalid argument: 'https://editor.keyboard-tools.xyz/#share=NrDeCIA9wLgZgL4BpwGIA6A7O4C6SwpYAmFAT1gFoAGAOgA4BWZcAAS2LwImhgBZyVOkxYASLHy6FejQTBoNmKAKRZGUiBXnDis8AENY1FuCQRD-FgEIsARg1F4chQDZdLAKIPepcFoX0fACcIaFhYSwA6t6wAn5CitRJySnJtiwASjEwev7CjKmFSekoACoOeQy6KBbGKKbmsSwAitlwznRuSuAAItm+lUxFhSXgAMrZcYMFwymjAGLZuQlDs2ksAOIVK8TB4fsA7DVGJmYGTSgAgm0dtF0sAML9t6tr1KMAGpMvM2+jAGpLH5vYosABC220VV+s18tVOjUsKAAWg54fUMeAHAAnWIobG8Pi0PTYrRBYkoXgKZbyRi0ajdHGwWz0ekHPRUug0yijJnwYi0WwchLc3n4Qi4+S2OjUdmUkXOMW4IA'
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "https://editor.keyboard-tools.xyz/#share=NrDeCIA9wLgZgL4BpwGIA6A7O4C6SwpYAmFAT1gFoAGAOgA4BWZcAAS2LwImhgBZyVOkxYASLHy6FejQTBoNmKAKRZGUiBXnDis8AENY1FuCQRD-FgEIsARg1F4chQDZdLAKIPepcFoX0fACcIaFhYSwA6t6wAn5CitRJySnJtiwASjEwev7CjKmFSekoACoOeQy6KBbGKKbmsSwAitlwznRuSuAAItm+lUxFhSXgAMrZcYMFwymjAGLZuQlDs2ksAOIVK8TB4fsA7DVGJmYGTSgAgm0dtF0sAML9t6tr1KMAGpMvM2+jAGpLH5vYosABC220VV+s18tVOjUsKAAWg54fUMeAHAAnWIobG8Pi0PTYrRBYkoXgKZbyRi0ajdHGwWz0ekHPRUug0yijJnwYi0WwchLc3n4Qi4+S2OjUdmUkXOMW4IA", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 4.0, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0, "layout_offset": null}
+DEBUG: key_placer.py:153: Switches by nets: defaultdict(<class 'list'>, {frozenset({'K27', 'GND'}): ['SW29'], frozenset({'K14', 'GND'}): ['SW16'], frozenset({'GND', 'K34'}): ['SW25'], frozenset({'K15', 'GND'}): ['SW17'], frozenset({'K23', 'GND'}): ['SW24'], frozenset({'K36', 'GND'}): ['SW31'], frozenset({'K13', 'GND'}): ['SW14'], frozenset({'K00', 'GND'}): ['SW1'], frozenset({'K26', 'GND'}): ['SW28'], frozenset({'K03', 'GND'}): ['SW4'], frozenset({'K22', 'GND'}): ['SW23'], frozenset({'K32', 'GND'}): ['SW15'], frozenset({'K10', 'GND'}): ['SW11'], frozenset({'K06', 'GND'}): ['SW8'], frozenset({'GND', 'K25'}): ['SW27'], frozenset({'K24', 'GND'}): ['SW26'], frozenset({'GND', 'K07'}): ['SW9'], frozenset({'GND', 'K20'}): ['SW21'], frozenset({'K17', 'GND'}): ['SW18'], frozenset({'GND', 'K02'}): ['SW3'], frozenset({'K04', 'GND'}): ['SW6'], frozenset({'K05', 'GND'}): ['SW7'], frozenset({'K30', 'GND'}): ['SW5'], frozenset({'K31', 'GND'}): ['SW10'], frozenset({'K33', 'GND'}): ['SW20'], frozenset({'K21', 'GND'}): ['SW22'], frozenset({'K12', 'GND'}): ['SW13'], frozenset({'K11', 'GND'}): ['SW12'], frozenset({'K01', 'GND'}): ['SW2'], frozenset({'K35', 'GND'}): ['SW30'], frozenset({'K16', 'GND'}): ['SW19']})
+DEBUG: key_placer.py:157: Diodes by switch: {'SW29': ['D9'], 'SW16': ['D9'], 'SW25': ['D9'], 'SW17': ['D9'], 'SW24': ['D9'], 'SW31': ['D9'], 'SW14': ['D9'], 'SW1': ['D9'], 'SW28': ['D9'], 'SW4': ['D9'], 'SW23': ['D9'], 'SW15': ['D9'], 'SW11': ['D9'], 'SW8': ['D9'], 'SW27': ['D9'], 'SW26': ['D9'], 'SW9': ['D9'], 'SW21': ['D9'], 'SW18': ['D9'], 'SW3': ['D9'], 'SW6': ['D9'], 'SW7': ['D9'], 'SW5': ['D9'], 'SW10': ['D9'], 'SW20': ['D9'], 'SW22': ['D9'], 'SW13': ['D9'], 'SW12': ['D9'], 'SW2': ['D9'], 'SW30': ['D9'], 'SW19': ['D9']}
+DEBUG: board_modifier.py:73: Searching for SW1 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+INFO: key_placer.py:653: Looking for connection template between SW1 and other elements
+DEBUG: board_modifier.py:132: Getting SW1 footprint position: (95250000, 38100000)
+INFO: key_placer.py:697: Got connection template: 
+INFO: key_placer.py:785: Using key 1U distance: (19.05, 19.05) mm
+INFO: key_placer.py:803: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:1131: Layout with: x_ortholinear_keys=31, y_ortholinear_keys=4, rotated_keys=4, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1156: Layout tagged: [<KeyboardTag.OTHER: 4>]
+WARNING: key_placer.py:820: Layout of this kind with missing key matrix annotations may produce unexpected footprint order. For details see: https://github.com/adamws/kicad-kbplacer/blob/master/docs/annotation_guide.md
+DEBUG: board_modifier.py:119: Setting SW1 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:119: Setting SW2 footprint position: (76200000, 40957500)
+DEBUG: board_modifier.py:119: Setting SW3 footprint position: (114300000, 43815000)
+DEBUG: board_modifier.py:119: Setting SW4 footprint position: (133350000, 46672500)
+DEBUG: board_modifier.py:119: Setting SW5 footprint position: (38100000, 50006250)
+DEBUG: board_modifier.py:119: Setting SW6 footprint position: (57150000, 50006250)
+DEBUG: board_modifier.py:119: Setting SW7 footprint position: (95250000, 57150000)
+DEBUG: board_modifier.py:119: Setting SW8 footprint position: (76200000, 60007500)
+DEBUG: board_modifier.py:119: Setting SW9 footprint position: (114300000, 62865000)
+DEBUG: board_modifier.py:119: Setting SW10 footprint position: (133350000, 65722500)
+DEBUG: board_modifier.py:119: Setting SW11 footprint position: (38100000, 69056250)
+DEBUG: board_modifier.py:119: Setting SW12 footprint position: (57150000, 69056250)
+DEBUG: board_modifier.py:119: Setting SW13 footprint position: (95250000, 76200000)
+DEBUG: board_modifier.py:119: Setting SW14 footprint position: (76200000, 79057500)
+DEBUG: board_modifier.py:119: Setting SW15 footprint position: (114300000, 81915000)
+DEBUG: board_modifier.py:119: Setting SW16 footprint position: (133350000, 84772500)
+DEBUG: board_modifier.py:119: Setting SW17 footprint position: (38100000, 88106250)
+DEBUG: board_modifier.py:119: Setting SW18 footprint position: (57150000, 88106250)
+DEBUG: board_modifier.py:119: Setting SW19 footprint position: (95250000, 95250000)
+DEBUG: board_modifier.py:119: Setting SW20 footprint position: (76200000, 98107500)
+DEBUG: board_modifier.py:119: Setting SW21 footprint position: (114300000, 100965000)
+DEBUG: board_modifier.py:119: Setting SW22 footprint position: (133350000, 103822500)
+DEBUG: board_modifier.py:119: Setting SW23 footprint position: (38100000, 107156250)
+DEBUG: board_modifier.py:119: Setting SW24 footprint position: (57150000, 107156250)
+DEBUG: board_modifier.py:119: Setting SW25 footprint position: (38100000, 126206250)
+DEBUG: board_modifier.py:119: Setting SW26 footprint position: (57150000, 126206250)
+DEBUG: board_modifier.py:119: Setting SW27 footprint position: (76200000, 126206250)
+DEBUG: board_modifier.py:119: Setting SW28 footprint position: (114300000, 122872500)
+DEBUG: board_modifier.py:119: Setting SW29 footprint position: (114300000, 122872500)
+DEBUG: board_modifier.py:119: Setting SW30 footprint position: (114300000, 122872500)
+DEBUG: board_modifier.py:119: Setting SW31 footprint position: (114300000, 122872500)
+INFO: key_placer.py:1238: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.UNCHANGED: 'Unchanged'>, position=ElementPosition(x=5.08, y=4.0, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='', start_index=-1)]
+INFO: key_placer.py:979: Placing additional elements for SW29
+DEBUG: board_modifier.py:132: Getting SW29 footprint position: (141192705, 127149931)
+DEBUG: board_modifier.py:84: Searching for optional ST29 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW16
+DEBUG: board_modifier.py:132: Getting SW16 footprint position: (133350000, 84772500)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW25
+DEBUG: board_modifier.py:132: Getting SW25 footprint position: (38100000, 126206250)
+DEBUG: board_modifier.py:84: Searching for optional ST25 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW17
+DEBUG: board_modifier.py:132: Getting SW17 footprint position: (38100000, 88106250)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW24
+DEBUG: board_modifier.py:132: Getting SW24 footprint position: (57150000, 107156250)
+DEBUG: board_modifier.py:84: Searching for optional ST24 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW31
+DEBUG: board_modifier.py:132: Getting SW31 footprint position: (99136886, 124209101)
+DEBUG: board_modifier.py:84: Searching for optional ST31 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW14
+DEBUG: board_modifier.py:132: Getting SW14 footprint position: (76200000, 79057500)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW1
+DEBUG: board_modifier.py:132: Getting SW1 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW28
+DEBUG: board_modifier.py:132: Getting SW28 footprint position: (120346317, 123083642)
+DEBUG: board_modifier.py:84: Searching for optional ST28 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW4
+DEBUG: board_modifier.py:132: Getting SW4 footprint position: (133350000, 46672500)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW23
+DEBUG: board_modifier.py:132: Getting SW23 footprint position: (38100000, 107156250)
+DEBUG: board_modifier.py:84: Searching for optional ST23 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW15
+DEBUG: board_modifier.py:132: Getting SW15 footprint position: (114300000, 81915000)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW11
+DEBUG: board_modifier.py:132: Getting SW11 footprint position: (38100000, 69056250)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW8
+DEBUG: board_modifier.py:132: Getting SW8 footprint position: (76200000, 60007500)
+DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW27
+DEBUG: board_modifier.py:132: Getting SW27 footprint position: (76200000, 126206250)
+DEBUG: board_modifier.py:84: Searching for optional ST27 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW26
+DEBUG: board_modifier.py:132: Getting SW26 footprint position: (57150000, 126206250)
+DEBUG: board_modifier.py:84: Searching for optional ST26 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW9
+DEBUG: board_modifier.py:132: Getting SW9 footprint position: (114300000, 62865000)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW21
+DEBUG: board_modifier.py:132: Getting SW21 footprint position: (114300000, 100965000)
+DEBUG: board_modifier.py:84: Searching for optional ST21 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW18
+DEBUG: board_modifier.py:132: Getting SW18 footprint position: (57150000, 88106250)
+DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW3
+DEBUG: board_modifier.py:132: Getting SW3 footprint position: (114300000, 43815000)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW6
+DEBUG: board_modifier.py:132: Getting SW6 footprint position: (57150000, 50006250)
+DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW7
+DEBUG: board_modifier.py:132: Getting SW7 footprint position: (95250000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW5
+DEBUG: board_modifier.py:132: Getting SW5 footprint position: (38100000, 50006250)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW10
+DEBUG: board_modifier.py:132: Getting SW10 footprint position: (133350000, 65722500)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW20
+DEBUG: board_modifier.py:132: Getting SW20 footprint position: (76200000, 98107500)
+DEBUG: board_modifier.py:84: Searching for optional ST20 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW22
+DEBUG: board_modifier.py:132: Getting SW22 footprint position: (133350000, 103822500)
+DEBUG: board_modifier.py:84: Searching for optional ST22 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW13
+DEBUG: board_modifier.py:132: Getting SW13 footprint position: (95250000, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW12
+DEBUG: board_modifier.py:132: Getting SW12 footprint position: (57150000, 69056250)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW2
+DEBUG: board_modifier.py:132: Getting SW2 footprint position: (76200000, 40957500)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW30
+DEBUG: board_modifier.py:132: Getting SW30 footprint position: (160424359, 136163813)
+DEBUG: board_modifier.py:84: Searching for optional ST30 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:979: Placing additional elements for SW19
+DEBUG: board_modifier.py:132: Getting SW19 footprint position: (95250000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in D:\GitHub\KiCad\Galia\Daughterboard (Cantaloupe)\Daughterboard (Cantaloupe).kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:1035: Routing K36 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW31:1', 'U4:6'
+INFO: key_placer.py:1035: Routing K15 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW17:1', 'U2:5'
+INFO: key_placer.py:1035: Routing K05 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW7:1', 'U1:5'
+INFO: key_placer.py:1035: Routing K35 pads
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+WARNING: board_modifier.py:667: Could not route pads when parent footprints not rotated the same, footprint1: SW30 at -32.15 degree(s) and footprint2: U4 at 90.0 degree(s)
+INFO: key_placer.py:1035: Routing K23 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW24:1', 'U3:3'
+INFO: key_placer.py:1035: Routing K31 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW10:1', 'U4:1'
+INFO: key_placer.py:1035: Routing K34 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW25:1', 'U4:4'
+INFO: key_placer.py:1035: Routing GND pads
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'U1:8' at (142800000, 21850000) with pad 'U2:13' at (147850000, 20400000) using coordinate system rotated by 0 degree(s)
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'U2:8' at (149800000, 21850000) with pad 'J3:6' at (151364461, 76160001) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(149800000, 21850000), (149800000, 74595540)]
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(149800000, 74595540), (151364461, 76160001)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'U2:8' at (149800000, 21850000) with pad 'U3:13' at (154850000, 20400000) using coordinate system rotated by 0 degree(s)
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'U3:8' at (156800000, 21850000) with pad 'U4:13' at (161850000, 20400000) using coordinate system rotated by 0 degree(s)
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D6:2' at (222880000, 115668750) with pad 'C1:1' at (221795000, 117618750) using coordinate system rotated by 0 degree(s)
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'C1:1' at (221795000, 117618750) with pad 'C2:1' at (221795000, 119568750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(221795000, 117618750), (221795000, 119568750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'C2:1' at (221795000, 119568750) with pad 'C3:1' at (221795000, 121518750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(221795000, 119568750), (221795000, 121518750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'C3:1' at (221795000, 121518750) with pad 'C4:1' at (221795000, 123468750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(221795000, 121518750), (221795000, 123468750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'J3:6' at (151364461, 76160001) with pad 'D1:2' at (222880000, 105918750) using coordinate system rotated by 0 degree(s)
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D1:2' at (222880000, 105918750) with pad 'D2:2' at (222880000, 107868750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(222880000, 105918750), (222880000, 107868750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D2:2' at (222880000, 107868750) with pad 'D3:2' at (222880000, 109818750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(222880000, 107868750), (222880000, 109818750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D3:2' at (222880000, 109818750) with pad 'D4:2' at (222880000, 111768750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(222880000, 109818750), (222880000, 111768750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D4:2' at (222880000, 111768750) with pad 'D5:2' at (222880000, 113718750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(222880000, 111768750), (222880000, 113718750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D5:2' at (222880000, 113718750) with pad 'D6:2' at (222880000, 115668750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(222880000, 113718750), (222880000, 115668750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D1:2' at (222880000, 105918750) with pad 'D7:2' at (225615000, 105918750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(222880000, 105918750), (225615000, 105918750)]
+INFO: board_modifier.py:503: Could not add track segment due to detected collision
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D7:2' at (225615000, 105918750) with pad 'D8:2' at (225615000, 107868750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(225615000, 105918750), (225615000, 107868750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D8:2' at (225615000, 107868750) with pad 'D9:2' at (225615000, 109818750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(225615000, 107868750), (225615000, 109818750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D9:2' at (225615000, 109818750) with pad 'D10:2' at (225615000, 111768750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(225615000, 109818750), (225615000, 111768750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D10:2' at (225615000, 111768750) with pad 'D11:2' at (225615000, 113718750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(225615000, 111768750), (225615000, 113718750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D11:2' at (225615000, 113718750) with pad 'D12:2' at (225615000, 115668750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(225615000, 113718750), (225615000, 115668750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D7:2' at (225615000, 105918750) with pad 'D13:2' at (228350000, 105918750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(225615000, 105918750), (228350000, 105918750)]
+INFO: board_modifier.py:503: Could not add track segment due to detected collision
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D13:2' at (228350000, 105918750) with pad 'D14:2' at (228350000, 107868750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(228350000, 105918750), (228350000, 107868750)]
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+INFO: board_modifier.py:674: Routing pad 'D14:2' at (228350000, 107868750) with pad 'D15:2' at (228350000, 109818750) using coordinate system rotated by 0 degree(s)
+INFO: board_modifier.py:494: Adding track segment (F.Cu): [(228350000, 107868750), (228350000, 109818750)]
+INFO: key_placer.py:1035: Routing K07 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW9:1', 'U1:7'
+INFO: key_placer.py:1035: Routing K04 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW6:1', 'U1:4'
+INFO: key_placer.py:1035: Routing K21 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW22:1', 'U3:1'
+INFO: key_placer.py:1035: Routing K06 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW8:1', 'U1:6'
+INFO: key_placer.py:1035: Routing K11 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW12:1', 'U2:1'
+INFO: key_placer.py:1035: Routing K00 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW1:1', 'U1:15'
+INFO: key_placer.py:1035: Routing K20 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW21:1', 'U3:15'
+INFO: key_placer.py:1035: Routing K16 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW19:1', 'U2:6'
+INFO: key_placer.py:1035: Routing K26 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW28:1', 'U3:6'
+INFO: key_placer.py:1035: Routing K01 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW2:1', 'U1:1'
+INFO: key_placer.py:1035: Routing K10 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW11:1', 'U2:15'
+INFO: key_placer.py:1035: Routing K02 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW3:1', 'U1:2'
+INFO: key_placer.py:1035: Routing K22 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW23:1', 'U3:2'
+INFO: key_placer.py:1035: Routing K17 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW18:1', 'U2:7'
+INFO: key_placer.py:1035: Routing K14 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW16:1', 'U2:4'
+INFO: key_placer.py:1035: Routing K12 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW13:1', 'U2:2'
+INFO: key_placer.py:1035: Routing K03 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW4:1', 'U1:3'
+INFO: key_placer.py:1035: Routing K24 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW26:1', 'U3:4'
+INFO: key_placer.py:1035: Routing K13 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW14:1', 'U2:3'
+INFO: key_placer.py:1035: Routing K25 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW27:1', 'U3:5'
+INFO: key_placer.py:1035: Routing K30 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW5:1', 'U4:15'
+INFO: key_placer.py:1035: Routing K32 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW15:1', 'U4:2'
+INFO: key_placer.py:1035: Routing K27 pads
+DEBUG: board_modifier.py:591: Routing at F.Cu layer
+DEBUG: board_modifier.py:608: Netclass: Default, track width: 200000
+WARNING: board_modifier.py:667: Could not route pads when parent footprints not rotated the same, footprint1: SW29 at -18.075 degree(s) and footprint2: U3 at 90.0 degree(s)
+INFO: key_placer.py:1035: Routing K33 pads
+WARNING: board_modifier.py:584: Could not route pads, no common layers found. Pads: 'SW20:1', 'U4:3'
+INFO: key_placer.py:546: Removing dangling tracks

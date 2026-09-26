@@ -53,7 +53,7 @@
           "45_degree_only": false,
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.05,
+          "corner_radius": 0.1,
           "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -79,23 +79,31 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|32857400|39650000|2cbefba7-67bb-4a7f-b481-5f602830471f|00000000-0000-0000-0000-000000000000",
+          "copper_edge_clearance|17063737|18648781|ede0567c-205e-46cf-9676-a875f6b3cb5b|bf890621-76e7-4c06-90e2-cbcfd1ec01a7",
           ""
         ],
         [
-          "lib_footprint_mismatch|32857400|47550000|3a1d7211-de5e-445d-ad10-19abe050dd33|00000000-0000-0000-0000-000000000000",
+          "copper_edge_clearance|17063737|49351218|78a1e44e-3992-40bf-9aa5-5ff761a7d790|072b3806-2691-40a8-aca3-59669634d6fd",
           ""
         ],
         [
-          "lib_footprint_mismatch|43650000|29050000|c7c28962-d87b-4cb0-8e0f-25c108d3db3b|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|25150000|24282500|49f69e6b-9cf0-4c2d-8031-8cd19522b192|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "unconnected_items|41207743|26300000|F.Cu|4|07920709-fba3-487d-bcb0-f69009aaf3a8|07920709-fba3-487d-bcb0-f69009aaf3a8",
+          "lib_footprint_mismatch|25150000|43282500|0af4d84c-3f86-4864-be07-b0669129683b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|25182500|33100000|4cb9c0f1-77ff-4805-8c0b-3763153ecba6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "unconnected_items|32943317|18999932|F.Cu|4|07920709-fba3-487d-bcb0-f69009aaf3a8|07920709-fba3-487d-bcb0-f69009aaf3a8",
           "Connected via USB and switch shield"
         ],
         [
-          "unconnected_items|53749854|41600000|F.Cu|4|07920709-fba3-487d-bcb0-f69009aaf3a8|07920709-fba3-487d-bcb0-f69009aaf3a8",
+          "unconnected_items|55950813|33799500|F.Cu|4|07920709-fba3-487d-bcb0-f69009aaf3a8|07920709-fba3-487d-bcb0-f69009aaf3a8",
           "Connected via USB and switch shield"
         ]
       ],
@@ -174,8 +182,8 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.15,
-        "min_connection": 0.2,
+        "min_clearance": 0.13,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
@@ -187,10 +195,10 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.12,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -239,12 +247,12 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
         0.25,
         0.3,
         0.4,
-        0.6,
-        1.6
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -296,7 +304,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V0.2"
+      "sch_revision": "V0.3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -553,10 +561,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -564,41 +572,36 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.4,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "diff_pair_gap": 0.16,
-        "diff_pair_width": 0.3,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.13,
+        "diff_pair_width": 0.2,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -642,7 +645,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "DXF/",
       "specctra_dsn": "",
       "step": "../Showcase/Honeydew-Board.step",
       "vrml": ""
@@ -653,7 +656,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -744,9 +747,9 @@
         },
         {
           "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": false
+          "label": "Rating",
+          "name": "Rating",
+          "show": true
         },
         {
           "group_by": false,
@@ -831,7 +834,7 @@
         "uuid": "534caec7-cf60-4f90-b1ed-42c9d445ef0f"
       }
     ],
-    "used_designators": "SW1,U6,FB3-4,R14,R16",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

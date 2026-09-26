@@ -603,13 +603,13 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -684,7 +684,7 @@
         "uuid": "ecc00314-3f71-498a-8094-cc2ff02afc14"
       }
     ],
-    "used_designators": "SW1-30,C1-4",
+    "used_designators": "SW1-31,C1-4",
     "variants": []
   },
   "sheets": [
